@@ -1,0 +1,91 @@
+
+.gridOne {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.gridTwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+.g2-child-red {
+    background-color: red;
+}
+
+.g2-child-blue {
+    background-color: blue;
+}
+
+.g2-child-yellow {
+    background-color: yellow;
+}
+
+
+.gridThree {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    height: 300px;
+    width: 500px;
+    
+}
+
+.gridThree div:first-child {
+    background-color: grey;
+}
+
+.gridThree div:last-child {
+    background-color: blueviolet;
+}
+
+.g3-child-img img {
+    object-fit: cover;
+    width: 500px;
+    height: 225px;
+    
+}
+
+
+.gridFour {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 500px;
+    background-color: green;
+}
+
+#g4-child-two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.gridFive {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 500px;
+    background-color: lightgray;
+}
+
+.g5-child-two {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.g5-child-two img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+.gridSix {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    width: 500px;
+    background-color: lightgray;
+}
+
+.gridSix p {
+    font-family: "Pacifico", serif;
+}
